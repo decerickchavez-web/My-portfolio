@@ -1,19 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="icon" type="image/png" href="images/favicons-portfolio.png">
-    <link rel="stylesheet" href="style.css">
 
+    <meta name="description"
+        content="Decerick Chavez - Computer Science student and aspiring web developer interested in web development, cloud computing, and cybersecurity.">
+
+    <meta name="author" content="Decerick Chavez">
+
+    <meta name="theme-color" content="#0b1118">
+
+    <title>Decerick Chavez | Developer Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicons-portfolio.png">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- Navigation -->
+    <!-- ================= HEADER / NAVIGATION ================= -->
+
     <header>
-        <nav>
-            <h2 class="logo">Decerick's Portfolio</h2>
+        <nav aria-label="Main navigation">
+
+            <a href="#home" class="logo" aria-label="Decerick Chavez home">
+                DC
+            </a>
 
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
@@ -23,153 +41,354 @@
                 <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+
         </nav>
     </header>
 
-    <!-- Home Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <p>Hello I'm</p>
-            <h1>Decerick Chavez</h1>
-            <h2>Bachelor of Science in Computer Science</h2>
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main>
+
+        <!-- ================= HERO SECTION ================= -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p>Welcome to my portfolio</p>
+
+                <h1>
+                    Decerick Chavez
+                </h1>
+
+                <h2>
+                    Aspiring Web Developer
+                </h2>
+
+                <p>
+                    I'm a Computer Science student passionate about
+                    building websites, exploring cloud technologies,
+                    and learning cybersecurity. I enjoy turning ideas
+                    into functional projects while continuously
+                    improving my programming skills.
+                </p>
+
+                <a href="#projects" class="btn">
+                    Explore My Projects →
+                </a>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <img
+                    src="images/Decerick.jpg"
+                    alt="Portrait of Decerick Chavez"
+                    class="profile-image"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT SECTION ================= -->
+
+        <section id="about" class="about">
+
+            <h2>About Me</h2>
 
             <p>
-                I'm interested in web development, designing a user-friendly interface. I have experience in front-end development, as well as working with databases and APIs. I am passionate about creating efficient and user-friendly applications that solve real-world problems.
+                Hello! I'm Decerick Chavez, a Bachelor of Science
+                in Computer Science student at Philippine Christian
+                University - Dasmariñas.
             </p>
 
-            <a href="#projects" class="btn" target="_blank">View My Projects</a>
-        </div>
+            <p>
+                I'm interested in web development, cloud computing,
+                and cybersecurity. I enjoy learning how technology
+                works and applying what I learn through hands-on
+                projects.
+            </p>
 
-        <div>
-            <img src="images/Decerick.jpg"  alt="Decerick Chavez" class="profile-image">
-        </div>
+            <p>
+                Currently, I'm strengthening my foundation in
+                HTML, CSS, and JavaScript while exploring React
+                and other technologies. My goal is to become a
+                skilled developer who can build useful,
+                responsive, and reliable applications.
+            </p>
 
-    </section>
+        </section>
 
-    <!--About Section-->
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>
-            I am a Bachelor of Science in Computer Science at Philippine Christian University.
-            I enjoy learning new technologies and programming and building projects that challenge my skills.
-        </p>
 
-        <p>
-            Currently I am learning HTML, CSS, JavaScript, and React while improving my skills in web development. I am also interested in exploring other areas of computer science, such as machine learning and cloud computing. I am always looking for new opportunities to learn and grow as a developer.
-        </p>
-    </section>
+        <!-- ================= SKILLS SECTION ================= -->
 
-    <!-- Skills Section -->
-        <section id="skills" class="skills">
+        <section id="skills">
 
             <h2>My Skills</h2>
 
             <div class="skills-container">
 
-                <div class="skill-card">
+                <div class="skill">
+
                     <h3>HTML</h3>
-                    <p>Building and structure of websites</p>
+
+                    <p>
+                        Creating structured and semantic web pages
+                        using HTML.
+                    </p>
+
                 </div>
 
-                <div class="skill-card">
+
+                <div class="skill">
+
                     <h3>CSS</h3>
-                    <p>Experienced in styling web pages with CSS and responsive design.</p>
+
+                    <p>
+                        Styling websites with layouts, responsive
+                        designs, and visual effects.
+                    </p>
+
                 </div>
 
-                <div class="skill-card">
+
+                <div class="skill">
+
                     <h3>JavaScript</h3>
-                    <p>Adding interaction and functionality to web pages</p>
+
+                    <p>
+                        Learning interactive functionality,
+                        DOM manipulation, and programming logic.
+                    </p>
+
                 </div>
 
-                <div class="skill-card">
+
+                <div class="skill">
+
                     <h3>React</h3>
-                    <p>Building user interfaces and single-page applications</p>
+
+                    <p>
+                        Currently learning component-based
+                        development and reusable UI.
+                    </p>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <h3>Git & GitHub</h3>
+
+                    <p>
+                        Managing code, tracking changes,
+                        and hosting personal projects.
+                    </p>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <h3>VS Code</h3>
+
+                    <p>
+                        Using Visual Studio Code for coding,
+                        debugging, and development.
+                    </p>
+
                 </div>
 
             </div>
 
         </section>
 
-    <!-- Projects Section -->
+
+        <!-- ================= PROJECTS SECTION ================= -->
+
         <section id="projects">
 
-            <h2>My Projects</h2>
+            <h2>Featured Projects</h2>
 
             <div class="projects-container">
 
-                <!-- Project 1 -->
-                <div class="project-card">
+
+                <!-- WEATHER APP -->
+
+                <article class="project-card">
 
                     <h3>Weather App</h3>
 
-                    <p>A simple weather application that displays current weather information.</p>
+                    <p>
+                        A weather application that displays
+                        weather information for different locations.
+                        Built to practice JavaScript and working
+                        with weather data.
+                    </p>
 
-                    <a href="./Weather App/index.html" class="btn" target="_blank">View Project</a>
-                </div>
+                    <a
+                        href="./Weather App/index.html"
+                        class="btn"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Project →
+                    </a>
 
-                <!-- Project 2 -->
-                <div class="project-card">
+                </article>
+
+
+                <!-- CALCULATOR -->
+
+                <article class="project-card">
 
                     <h3>Calculator</h3>
 
-                    <p>A simple calculator application for basic arithmetic operations.</p>
+                    <p>
+                        A simple calculator with an interactive
+                        interface. Created to practice JavaScript
+                        logic, mathematical operations, and
+                        user interactions.
+                    </p>
 
-                    <a href="./Calculator/index.html" class="btn" target="_blank">View Project</a>
-                </div>
+                    <a
+                        href="./Calculator/index.html"
+                        class="btn"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Project →
+                    </a>
 
-                <!-- Project 3 -->
-                <div class="project-card">
+                </article>
+
+
+                <!-- DICE ROLLER -->
+
+                <article class="project-card">
 
                     <h3>Dice Roller</h3>
 
-                    <p>A simple dice roller application that simulates rolling a dice.</p>
+                    <p>
+                        An interactive dice roller that generates
+                        random results. Built to practice JavaScript
+                        functions, random numbers, and DOM updates.
+                    </p>
 
-                    <a href="./DICE ROLLER/index.html" class="btn" target="_blank">View Project</a>
-                </div>
+                    <a
+                        href="./DICE ROLLER/index.html"
+                        class="btn"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Project →
+                    </a>
+
+                </article>
+
+
             </div>
+
         </section>
 
-        <!--Education Section-->
+
+        <!-- ================= EDUCATION SECTION ================= -->
+
         <section id="education" class="education">
-        
+
             <h2>Education</h2>
-            
+
             <div>
+
                 <h3>Philippine Christian University</h3>
 
-                <p>Bachelor of Science in Computer Science</p>
+                <p>
+                    Bachelor of Science in Computer Science
+                </p>
 
-                <p>2025- present</p>
+                <p>
+                    Dasmariñas, Cavite
+                </p>
+
+                <p>
+                    Currently pursuing my undergraduate degree.
+                </p>
+
             </div>
 
         </section>
 
-        <!-- Contact Section -->
+
+        <!-- ================= CONTACT SECTION ================= -->
+
         <section id="contact">
 
-            <h2>Contact Me</h2>
+            <h2>Let's Connect</h2>
 
             <p>
-                Interested in working together or want to know more about me? Feel free to contact me.
+                I'm always open to learning opportunities,
+                collaboration, and connecting with people
+                in the tech community. Feel free to reach out!
             </p>
 
             <div class="contact-links">
 
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=decerickchavez@gmail.com" target="_blank" rel="noopener noreferrer"> Email </a>
-            
+                <!-- GMAIL CONTACT BUTTON -->
 
-                <a href="https://github.com/decerickchavez-web" target="blank">
-                    GitHub</a>
+                <a
+                    href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=decerickchavez@gmail.com&amp;su=Portfolio%20Inquiry"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Email Me
+                </a>
 
-                <a href="https://www.linkedin.com/in/decerick-chavez-2085a2429?utm_source=share_via&utm_content=profile&utm_medium=member_ios
-                " target="blank">LinkedIn</a>
+
+                <!-- GITHUB -->
+
+                <a
+                    href="https://github.com/decerickchavez-web"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
+
+
+                <!-- LINKEDIN -->
+
+                <a
+                    href="https://www.linkedin.com/in/decerick-chavez-2085a2429/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn
+                </a>
 
             </div>
 
         </section>
 
+    </main>
 
 
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Decerick Chavez. Built with HTML, CSS & JavaScript.
+        </p>
+
+    </footer>
+
+
+    <!-- Main JavaScript -->
     <script src="index.js"></script>
+
 </body>
 </html>
